@@ -1,7 +1,12 @@
+.body {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
 .spinner {
     width: 100px;
     height: 100px;
-    animation: Morph 200ms infinite;
+    animation: Morph 2000ms infinite;
 }
 
 @keyframes Morph {
