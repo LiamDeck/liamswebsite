@@ -9,7 +9,7 @@ body {
 
     height: 300px; /* Höhe der div-Box */
     width: 300px; /* Breite der div-Box */
-    margin-top: -150px; /* Damit der "Ausrichtungspunkt" in der Mitte der Box liegt */
+    margin-top: -100px; /* Damit der "Ausrichtungspunkt" in der Mitte der Box liegt */
     margin-left: -150px;
     position: absolute; /* positionieren */
     top: 50%; /* in die Mitte verschieben */
@@ -29,4 +29,10 @@ body {
         background-color: lightblue;
 
     }
+}
+
+.loading {
+    color: white;
+    font-size: 50px;
+
 }
