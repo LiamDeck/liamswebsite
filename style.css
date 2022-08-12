@@ -1,14 +1,19 @@
 .body {
     background-color: rgb(48, 48, 48);
-    color: rgb(130, 130, 130);
+    background: rgb(48, 48, 48);
 }
 
 .spinner {
-    text-align: center;
-    position: absolute;
-    width: 100px;
-    height: 100px;
+    
     animation: Morph 2000ms infinite;
+
+    height: 200px; /* Höhe der div-Box */
+    width: 300px; /* Breite der div-Box */
+    margin-top: -100px; /* Damit der "Ausrichtungspunkt" in der Mitte der Box liegt */
+    margin-left: -150px;
+    position: absolute; /* positionieren */
+    top: 50%; /* in die Mitte verschieben */
+    left: 50%;
 }
 
 @keyframes Morph {
